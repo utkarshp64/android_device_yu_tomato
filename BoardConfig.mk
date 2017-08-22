@@ -19,6 +19,7 @@ include device/yu/tomato/board/*.mk
 
 # Assertions
 TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
+TARGET_SYSTEM_PROP += device/yu/tomato/system.prop
 
 # Inherit from proprietary files
 include vendor/yu/tomato/BoardConfigVendor.mk

@@ -17,6 +17,9 @@ $(call inherit-product, device/yu/tomato/full_tomato.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
+# Include Bootanimation configuration
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
